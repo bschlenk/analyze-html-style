@@ -1,0 +1,26 @@
+{
+  "name": "analyze-html-style",
+  "version": "1.0.0",
+  "description": "Analyze popular repo's usage of inline style tags",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bschlenk/analyze-html-style.git"
+  },
+  "author": "Brian Schlenker <bschlenk@umich.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bschlenk/analyze-html-style/issues"
+  },
+  "homepage": "https://github.com/bschlenk/analyze-html-style#readme",
+  "engines": {
+    "node": ">= 13"
+  },
+  "dependencies": {
+    "@octokit/rest": "^17.2.0"
+  }
+}
